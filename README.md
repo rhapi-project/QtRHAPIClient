@@ -27,7 +27,7 @@ Mise en oeuvre basique :
 #include "rhapiclient.h"
 // Exemple : requête CCAM sur un mot clef
 RHAPIClient* client = new RHAPIClient("https://auth-dev.rhapi.net", "bXlhcHzTA6bXlhcH", this);
-QVariantMap error;
+QVariantMap error, datas;
 if (client->auth("username", "YfdfR5g", error)) {
     QList<QPair<QString, QString>> params;
     params << (qMakePair(QString("texte"), QString("biopsie")));
