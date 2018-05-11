@@ -11,7 +11,7 @@ Qt RHAPIClient est constitué des 2 fichiers :
 - rhapiclient.h
 - rhapiclient.cpp
 
-Le projet Qt *.pro doit comporter les lignes suivantes
+Le projet Qt \*.pro doit comporter les lignes suivantes :
 ```
 QT += network
 SOURCES += rhapiclient.cpp
