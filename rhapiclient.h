@@ -8,7 +8,7 @@ class RHAPIClient : public QObject
 {
     Q_OBJECT
 public:
-    explicit RHAPIClient(const QString& authBaseUrl, const QByteArray &appToken, QObject *parent = nullptr);
+    explicit RHAPIClient(const QString& authBaseUrl, const QByteArray& appToken, QObject *parent = nullptr);
 
     bool auth(const QString& user, const QString& password, QVariantMap &error);
 
