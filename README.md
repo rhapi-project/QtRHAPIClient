@@ -22,8 +22,8 @@ HEADERS += rhapiclient.h
 Voir l'exemple fourni et les tests sur mainwindow.cpp
 
 ```C++
+#include "rhapiclient.h"
 // Exemple : requête CCAM sur un mot clef
-//
 RHAPIClient* client = new RHAPIClient("https://auth-dev.rhapi.net", "bXlhcHzTA6bXlhcH", this);
 QVariantMap error;
 if (client->auth("username", "YfdfR5g", error)) {
