@@ -6,9 +6,11 @@ Un client RHAPI Qt/C++
 
 
 ## Installation
-Le client est constitué des 2 fichiers :
+
+Qt RHAPIClient est constitué des 2 fichiers :
 - rhapiclient.h
 - rhapiclient.cpp
+
 Le projet Qt .pro doit comporter les lignes suivantes
 ```
 QT += network
@@ -37,3 +39,5 @@ if (client->auth("username", "YfdfR5g", error)) {
 else {
     qWarning() << error.value("userMessage").toString();
 }
+```
+
