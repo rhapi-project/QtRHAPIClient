@@ -19,8 +19,10 @@ HEADERS += rhapiclient.h
 ```
 
 ## Usage
-Voir l'exemple fourni et les tests sur mainwindow.cpp
 
+Voir l'exemple fourni et les tests sur mainwindow.cpp.
+
+Mise en oeuvre basique :
 ```C++
 #include "rhapiclient.h"
 // Exemple : requête CCAM sur un mot clef
